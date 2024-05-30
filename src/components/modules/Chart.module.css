@@ -117,4 +117,11 @@
     flex-direction: column;
     margin: 30px 10px 0;
   }
+  .types {
+    display: flex;
+    flex-direction: column;
+  }
+  .types button {
+    width: fit-content;
+  }
 }
