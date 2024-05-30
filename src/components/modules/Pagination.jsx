@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 import styles from "./pagination.module.css";
 import ChevronLeft from "../icons/ChevronLeft";
 import ChevronRight from "../icons/ChevronRight";
