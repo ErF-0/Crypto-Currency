@@ -1,0 +1,105 @@
+.searchBox {
+  margin-top: 50px;
+  position: relative;
+}
+
+.searchBox input {
+  width: 300px;
+  height: 50px;
+  font-size: 1.1rem;
+  padding: 10px;
+  color: #fff;
+  background-color: #23242e;
+  border: none;
+  border-radius: 5px;
+}
+.searchBox input:focus {
+  outline: none;
+}
+
+.searchBox select {
+  background-color: #23242e;
+  height: 50px;
+  padding: 0 10px;
+  margin-left: 20px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+.searchBox select:focus {
+  outline: none;
+}
+
+.searchResult {
+  position: absolute;
+  top: 60px;
+  width: 300px;
+  height: 400px;
+  background-color: #18181c;
+  border: 2px solid #22262e;
+  border-radius: 5px;
+  text-align: center;
+  overflow-y: scroll;
+  padding: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+.searchResult li {
+  display: flex;
+  list-style: none;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #22262e;
+  cursor: pointer;
+}
+.searchResult li img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+@media only screen and (max-width: 1280px) {
+  .searchBox {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 640px) {
+  .searchBox input {
+    width: 250px;
+    font-size: 0.9rem;
+  }
+  .searchBox select,
+  .searchBox option {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .searchBox {
+    margin: 50px 10px 0;
+  }
+  .searchBox input {
+    width: 150px;
+  }
+  .searchBox select,
+  .searchBox option {
+    margin-left: 10px;
+    font-size: 0.7rem;
+  }
+  .searchResult {
+    width: 190px;
+  }
+  .searchResult p {
+    font-size: 0.8rem;
+  }
+}

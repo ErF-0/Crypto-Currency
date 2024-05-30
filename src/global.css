@@ -1,0 +1,34 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  margin: auto;
+  max-width: 1200px;
+  min-height: 100vh;
+  padding: 10px;
+  background-color: #131315;
+  color: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+@media only screen and (max-width: 1280px) {
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 640px) {
+}
+@media only screen and (max-width: 480px) {
+}
